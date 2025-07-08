@@ -1,0 +1,3 @@
+metaworld @ git+https://github.com/FaramaFoundation/Metaworld.git@304d79db1fd56401aff00a92181db0c977a04663#egg=metaworld
+h5py
+torchinfo
