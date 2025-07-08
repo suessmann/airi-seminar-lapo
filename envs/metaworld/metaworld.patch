@@ -1,0 +1,22 @@
+diff --git a/metaworld/envs/assets_v2/scene/basic_scene.xml b/metaworld/envs/assets_v2/scene/basic_scene.xml
+index 1b2a68b..c66fe51 100644
+--- a/metaworld/envs/assets_v2/scene/basic_scene.xml
++++ b/metaworld/envs/assets_v2/scene/basic_scene.xml
+@@ -46,7 +46,7 @@
+                   contype="0"/>
+         </body>
+ 
+-        <body name="RetainingWall" pos="0.0 0.6 0.06">
++        <!-- <body name="RetainingWall" pos="0.0 0.6 0.06">
+             <geom material="wall_metal" type="box" size=".7 .01 .06" pos="0. -0.39 0." conaffinity="1" condim="3"
+                   contype="0"/>
+             <geom material="wall_metal" type="box" size=".7 .01 .06" pos="0. 0.39 0." conaffinity="1" condim="3"
+@@ -55,7 +55,7 @@
+                   contype="0"/>
+             <geom material="wall_metal" type="box" size=".01 .38 .06" pos=".69 0. 0." conaffinity="1" condim="3"
+                   contype="0"/>
+-        </body>
++        </body> -->
+ 
+         <geom name="floor" size="4 4 .1" pos="0 0 -.913" conaffinity="1" contype="1" type="plane" material="basic_floor"
+               condim="3"/>
